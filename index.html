@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://elitekamrul.me/images/favicon.png">
+    <title>Specific Data Finder (ELITEKAMRUL)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="login-section" class="login-container">
+        <center><h1 style="color: red;">ADMIN</h1></center>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <button onclick="checkPassword()">Login</button>
+    </div>
+
+    <div id="data-finder-section" class="card" style="display:none;">
+        <h1>
+            <span class="specific">SPECIFIC</span>
+            <span class="data">DATA</span>
+            <span class="finder">FINDER</span>
+        </h1>
+        <label for="searchInput">Search for:</label>
+        <input type="text" id="searchInput" placeholder="Enter Anything...">
+        <ul id="results"></ul>
+        <div id="buttons">
+            <button onclick="search()">Get Data</button>
+            <button onclick="saveData()">Save Data</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

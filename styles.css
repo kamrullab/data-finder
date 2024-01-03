@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+#results {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    word-break: break-all;
+}
+
+#buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.card {
+    width: 70%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+#buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #fa0000; /* red color on hover */
+    box-shadow: 3px 3px 10px #000000, -3px -3px 10px #ffffff; /* Neumorphism effect */
+}
+
+button:active {
+    box-shadow: inset 2px 2px 5px #a8a8a8, inset -2px -2px 5px #ffffff; /* Neumorphism effect on active state */
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.specific, .data, .finder {
+    font-weight: bold; /* Make the words bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow */
+}
+
+.specific {
+    color: #000000; /* black color for "SPECIFIC" */
+}
+
+.data {
+    color: #ff0000; /* red color for "DATA" */
+}
+
+.finder {
+    color: #ff00dd; /* pink color for "FINDER" */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    width: 300px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Styling specifically for the login button */
+.login-button {
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    background: linear-gradient(to right, #4caf50, #45a049);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+.login-button:hover {
+    background: linear-gradient(to right, #45a049, #4caf50);
+}
+
+/* Additional styling for a link to redirect to another page */
+.redirect-link {
+    display: block;
+    color: #3498db;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.redirect-link:hover {
+    text-decoration: underline;
+}
