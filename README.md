@@ -16,11 +16,14 @@
 
 </div>
 
+> [!CAUTION]
+> **LOCAL USE ONLY:** This repository is intended only for private, local use with XAMPP or another local PHP server. Do not deploy or expose it on a live/public server. The demo password is visible in the client-side source and is not production-grade authentication.
+
 ## 📖 About
 
 **Specific Data Finder** is a lightweight local web application that searches matching lines across large `.txt` files. PHP scans files line by line and streams results to the browser, avoiding browser freezes and high memory usage caused by loading entire files at once.
 
-It is designed for local use with XAMPP. Data remains inside the local `DATA FILE` directory and is excluded from Git.
+It is designed exclusively for local use with XAMPP. Data remains inside the local `DATA FILE` directory and is excluded from Git. This project is not intended for live hosting or public-server deployment.
 
 ## 🔑 Demo Access
 
