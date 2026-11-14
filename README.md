@@ -13,6 +13,7 @@
 [![Repository](https://img.shields.io/badge/GitHub-kamrullab%2Fdata--finder-181717?style=flat-square&logo=github)](https://github.com/kamrullab/data-finder)
 [![Local First](https://img.shields.io/badge/Privacy-Local--First-8b5cf6?style=flat-square&logo=shield&logoColor=white)](#-privacy-and-security)
 [![Streaming Search](https://img.shields.io/badge/Search-Streaming-06b6d4?style=flat-square&logo=lightning&logoColor=white)](#-features)
+[![Responsive](https://img.shields.io/badge/UI-All--Device_Responsive-f97316?style=flat-square&logo=responsive&logoColor=white)](#-responsive-design)
 
 </div>
 
@@ -51,6 +52,19 @@ Use the following password on the login screen:
 - 📱 Responsive desktop and mobile interface
 - 🔒 Local-first workflow—real data files are ignored by Git
 - 🎨 Local SVG favicon and clean interface
+
+## 📱 Responsive Design
+
+The interface automatically adapts to different screen sizes and is designed to work across:
+
+| Device | Support |
+|---|:---:|
+| 🖥️ Desktop | ✅ Responsive |
+| 💻 Laptop | ✅ Responsive |
+| 📱 Tablet | ✅ Responsive |
+| 📲 Mobile | ✅ Responsive |
+
+Search fields, progress indicators, result cards and action buttons resize and wrap for the available screen width. No separate mobile application is required.
 
 ## 🛠️ Requirements
 
