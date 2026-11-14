@@ -1,0 +1,9 @@
+# Local data files must never be committed.
+DATA FILE/
+*.txt
+
+# Common local/editor files.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
