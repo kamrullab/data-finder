@@ -22,6 +22,21 @@
 
 It is designed for local use with XAMPP. Data remains inside the local `DATA FILE` directory and is excluded from Git.
 
+## 🔑 Demo Access
+
+Use the following password on the login screen:
+
+<div align="center">
+
+### Password: `143`
+
+[![Demo Password](https://img.shields.io/badge/Demo_Password-143-ef4444?style=for-the-badge&logo=key&logoColor=white)](#-demo-access)
+
+</div>
+
+> [!NOTE]
+> This password is intentionally public and is provided only for local/demo access. It is not intended to protect a production deployment.
+
 ## ✨ Features
 
 - ⚡ Line-by-line PHP streaming for large text files
