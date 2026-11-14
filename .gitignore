@@ -1,5 +1,6 @@
-# Local data files must never be committed.
-DATA FILE/
+# Keep the data folder in Git, but ignore its real contents.
+DATA FILE/*
+!DATA FILE/demo.text
 *.txt
 
 # Common local/editor files.
